@@ -1,0 +1,21 @@
+uname
+{
+color:black;
+font-family:copperplate Gothoic Light; font-size:16 pt;
+font:bold; }
+city
+{
+color:yellow; font-family:Arial; font-size:12 pt; font:bold;
+} rank {
+color:yellow;
+font-family:Arial; font-size:16 pt; font:bold;
+}
+<?xml version="1.0" encoding="UTF-8"?> <?xml-stylesheet type="text/css" href="university.css"?> <university>
+<univ>
+<uname>Pune University</uname>
+<city>Pune</city>
+<rank>2</rank> </univ>
+<univ>
+<uname>Kolhapur University</uname> <city>Kolhapur</city>
+<rank>4</rank>
+</univ> </university>

@@ -1,0 +1,27 @@
+<html> <head> <style> span
+    {
+    color: red;
+    font-size: 25px;
+    } 
+    </style>
+
+
+    <script type="text/javascript" >
+     function count()
+    {
+    var ob=false;
+    ob=new XMLHttpRequest();
+    var eid=document.getElementById("eid").value;
+    ob.open("GET","que9.php?emailid="+eid); ob.send();
+    ob.onreadystatechange=function() {
+    if(ob.readyState==4 && ob.status==200) document.getElementById("i").innerHTML=ob.responseText;
+    
+    } }
+    </script> </head>
+    <body>
+    <center>
+    <br>Email ID :<input type=text name=eid id=eid>
+     <br><input type="button" value=Show onclick="count()" > <br><br><span id="i"></span>
+    </center>
+    </body>
+    </html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+<book category="COOKING">
+  <title lang="en">
+  <author>
+  <year>2005</year>
+  <price>30.00</price>
+</book>
+      </title>
+</author>
+ Giada De Laurentiis
+<book category="CHILDREN">
+  <title lang="en">
+  <author>            </author>
+  <year>2005</year>
+  <price>29.99</price>
+</title>
+ J K. Rowling
+Harry Potter
+ 
+</book>
+<book category="WEB">
+  <title lang="en">
+  <author>
+  <author>
+</title>
+  <author>
+  <author>
+  <author>
+  <year>2003</year>
+  <price>49.99</price>
+</book>
+Everyday Italian
+ XQuery Kick Start
+  James McGovern
+Per Bothner
+  Kurt Cagle
+James Linn
+ Vaidyanathan Nagarajan
+<book category="WEB">
+  <title lang="en">Learning XML</title>
+   </author>
+</author>
+</author>
+</author>
+</author>
+<author>Erik T. Ray</author>
+  <year>2003</year>
+  <price>39.95</price>
+</book>
+</bookstore>
+foreach($xml->children() as $child)
+  {
+  echo $child->getName() . ": " . $child . "<br>";
+}
+?>
+12. Design a HTML form to accept a string. Write a PHP script for the following.
+a. Write a function to count the total number of Vowels from the script.
+b. Show the occurrences of each Vowel from the script.
+<html>
+<body>

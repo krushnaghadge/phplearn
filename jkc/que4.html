@@ -1,0 +1,28 @@
+<html> <head> <style> h1
+    {
+    font-size:16pt; color:red;
+    } body {
+    backcolor:yellow;
+    background-img:url("img.jpg"); }
+    </style>
+    </head>
+    <body>
+    <h1><u>Project Management Details</u></h1> <script>
+    $('#staDate').datepicker({
+    onSelect: function(dateText,inst){
+    $('#enDate').datepicker('option','minDate',new Date(dateText)); }
+    }); $('#enDate').datepicker({
+    onSelect: function(dateText,inst){ $('#staDate').datepicker('option','maxDate',new Date(dateText));
+    } });
+    </script> <form>
+    Enter your name:
+    <input type="textbox" value=""><br><br> <label for="ass">Assigned to </label> <select name="person" id="person">
+    <option value="Er MerryPetison">Er MerryPetison</option> <option value="Roger">Roger</option>
+    <option value="Camela">Camela</option>
+    <option value="David">David</option>
+    </select><br>
+    Start Date: <input type="date" id="staDate"><br>
+    End Date: <input type="date" id="enDate" ><br>
+    Priority: <input type="radio" name="high" value="High"> High <input type="radio" name="avg" value="Average">Average
+    <input type="radio" name="low" value="Low">Low<br> Description:<textarea name="desc" rows="10" cols="20"></textarea> </form>
+    </body> </html>

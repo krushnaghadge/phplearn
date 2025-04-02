@@ -1,0 +1,31 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <course>
+  <computerscience>
+ <studentname>samir Thorat </studentname>
+ <classname>BCA. </classname>
+ <percentage>60 </percennatage>
+ 
+ <computerscience>
+<studentname>sunil kamble </studentname>
+<classname>BBA. </classname>
+<percentage>55 </percennatage>
+</computerscience>
+
+<computerscience>
+<studentname>anil kamble </studentname>
+<classname>BCS. </classname>
+<percentage>60 </percennatage>
+</computerscience>
+
+ <computerscience>
+ <studentname>asha kamble </studentname>
+ <classname>MCA. </classname>
+ <percentage>65 </percennatage>
+ </computerscience>
+
+  <computerscience>
+ <studentname>madhuri </studentname>
+ <classname>MCS. </classname>
+ <percentage>70 </percennatage>
+ </computerscience>
+ </course>

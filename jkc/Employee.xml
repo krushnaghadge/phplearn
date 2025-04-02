@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empdetails> <employee>
+<empno>1</empno> <empname>Sanket</empname> <salary>20000</salary> <designation>Clerk</designation>
+</employee> <employee>
+<empno>2</empno> <empname>Shubham</empname> <salary>30000</salary> <designation>Manager</designation>
+</employee> <employee>
+<empno>3</empno> <empname>Abhilash</empname> <salary>500000</salary> <designation>CEO</designation>
+</employee> </empdetails>
